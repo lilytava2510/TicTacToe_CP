@@ -1,0 +1,66 @@
+.game-board {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #34495e;
+    color: #fff;
+    border: 6px solid #2c3e50;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.box {
+    border: 6px solid #2c3e50;
+    border-radius: 2px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.winner {
+    text-align: center;
+    color: rgb(24, 126, 24);
+}
+
+.reset-btn {
+    
+        width: 123px;
+        height: 36px;
+        
+        background-color: #313D5A;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #ffff;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+    }
+    
+    .reset-btn:hover {
+        background-color:#3C1361;
+        box-shadow: 0px 15px 20px -5px rgba(74, 25, 66, 0.75);
+        color: #fff;
+        transform: translateY(-4px);
+    }
+    .btn-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    circle,
+rect,
+line {
+  stroke-width: 30px;
+  stroke-linecap: round;
+  fill: transparent;
+}

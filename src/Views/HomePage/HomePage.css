@@ -1,0 +1,30 @@
+.home-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eaeaea;
+}
+
+.start-btn, .multi-btn, .local-btn{
+    width: 200px;
+    height: 60px;
+    background-color: #313D5A;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-bottom:30px;
+}
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    
+}
